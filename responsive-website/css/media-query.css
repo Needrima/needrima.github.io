@@ -1,14 +1,14 @@
 /*"@media only screen" to specify changes for mobile devices only*/
 /*"@media (max-width: 700px) and (min-width: 500px)" to specify a range*/
 
-@media only screen { 
+@media(max-width: 750px) { 
 
     .side-bar {
-        display: block;
+        display: none;
     }
 
     .main, .new-post, .single-post  {
-        margin: 7px 310px 7px 7px;
+        margin: 7px;
     }
 
     #comments {
