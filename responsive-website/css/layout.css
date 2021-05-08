@@ -71,6 +71,7 @@ body {
     margin: 0px 7px 7px 0px;
     float: right;
     border-radius: 5px;
+    display: none;
 }
 
 .side-bar div li {
@@ -83,7 +84,7 @@ body {
 .main, .new-post, .single-post {
     background-color: rgb(200, 200, 200);
     padding: 20px;
-    margin: 7px 310px 7px 7px;
+    margin: 7px;
     border-radius: 5px;
     font-size: 110%;
     overflow: hidden;
