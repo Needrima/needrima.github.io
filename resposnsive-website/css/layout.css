@@ -65,7 +65,7 @@ body {
 
 /*==== Layout for index.html ====*/
 .side-bar {
-    width: 250px;
+    width: 340px;
     background-color: rgb(200, 200, 200);
     padding: 20px;
     margin: 0px 7px 7px 0px;
@@ -80,10 +80,25 @@ body {
     line-height: 25px;
 }
 
+.side-bar-mobile {
+    background-color: rgb(200, 200, 200);
+    padding: 20px;
+    margin: 7px 150px 7px 7px;
+    border-radius: 5px;
+    display: none;
+}
+
+.side-bar-mobile div li {
+    font-size: 90%;
+    font-weight: bold;
+    list-style-type: none;
+    line-height: 25px;
+}
+
 .main, .new-post, .single-post {
     background-color: rgb(200, 200, 200);
     padding: 20px;
-    margin: 7px 310px 7px 7px;
+    margin: 7px 400px 7px 7px;
     border-radius: 5px;
     font-size: 110%;
     overflow: hidden;
@@ -123,7 +138,7 @@ body {
 /*==== Layout for newpost.html ====*/
 
 .new-post form {
-    padding: 10px;
+    padding: 10px, 10px, 10px, 0px;
 }
 .new-post form input[type="text"], .new-post form textarea {
     border-radius: 4px;
@@ -164,23 +179,8 @@ body {
     color: black;
 }
 
-.side-bar-mobile {
-    background-color: rgb(200, 200, 200);
-    padding: 20px;
-    margin: 7px 210px 7px 7px;
-    border-radius: 5px;
-    display: none;
-}
 
-.side-bar-mobile div li {
-    font-size: 90%;
-    font-weight: bold;
-    list-style-type: none;
-    line-height: 25px;
-}
-
-
-/*==== Layout for single-post.html ====*/
+/*==== Layout for single-post.html and reply.html ====*/
 
 .single-post {
     margin: 7px 500px 7px 7px;
@@ -191,24 +191,24 @@ body {
     max-width: 100%;
 }
 
-#comments {
+#comments, #replies {
     width: 440px;
     background-color: rgb(200, 200, 200);
     padding: 20px;
     margin: 0px 7px 7px 0px;
     float: right;
     border-radius: 5px;
-    height: 500px;
-    overflow: auto;
+    height: auto;
 }
 
-#comments div p {
+#comments div p, #replies div p {
     font-size: 90%;
     list-style-type: none;
     line-height: 25px;
+    font-weight: bolder;
 }
 
-#comments-mobile {
+#comments-mobile, #replies-mobile {
     background-color: rgb(200, 200, 200);
     padding: 20px;
     margin: 7px;
@@ -217,21 +217,27 @@ body {
     display: none;
 }
 
-.new-comment form {
+.comment-single, .reply-single {
+    border: 2px solid black;
     padding: 10px;
+    margin-bottom: 3px;
 }
 
-.new-comment form textarea {
+.new-comment form, .new-reply form {
+    padding: 10px, 10px, 10px, 0px;
+}
+
+.new-comment form textarea, .new-reply form textarea {
     border-radius: 4px;
     border: 2px ridge black;
 }
 
-.new-comment form textarea {
+.new-comment form textarea, .new-reply form textarea {
     width: 100%;
     height: 120px;
 }
 
-.new-comment form button {
+.new-comment form button, .new-reply form button {
     height: 50px;
     display: block;
     margin-top: 10px;
@@ -246,7 +252,7 @@ body {
     color: white;
 }
 
-.new-comment form button:hover{
+.new-comment form button:hover, .new-reply form button:hover{
     background-color: white;
     color: black;
 }

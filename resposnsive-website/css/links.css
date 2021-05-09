@@ -39,3 +39,15 @@
     background-color: white;
     color: black;
 }
+
+/*===== sing-post.html, replies.html =====*/
+#replies div a, #comments div a, #comments-mobile div a, #replies-mobile div a {
+    text-decoration: none;
+    font-family:georgia, 'Times New Roman', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+#replies div a:hover, #comments div a:hover, #comments-mobile div a:hover, #replies-mobile div a:hover{
+    color: black;
+}

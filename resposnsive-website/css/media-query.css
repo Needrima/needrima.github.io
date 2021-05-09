@@ -11,11 +11,11 @@
         margin: 7px;
     }
 
-    #comments {
+    #comments, #replies {
         display: none;
     }
 
-    #comments-mobile, .side-bar-mobile {
+    #comments-mobile, #replies-mobile, .side-bar-mobile {
         display: block;
     }
 }
