@@ -51,3 +51,11 @@
 #replies div a:hover, #comments div a:hover, #comments-mobile div a:hover, #replies-mobile div a:hover{
     color: black;
 }
+
+.single-post p span a{
+    text-decoration: none;
+}
+
+.single-post p span a:hover{
+    color: white;
+}
