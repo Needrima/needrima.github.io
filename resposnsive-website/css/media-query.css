@@ -18,4 +18,9 @@
     #comments-mobile, #replies-mobile, .side-bar-mobile {
         display: block;
     }
+
+    .contact-mail form input[type="text"] {
+        width: 100%;
+    }
+    
 }
