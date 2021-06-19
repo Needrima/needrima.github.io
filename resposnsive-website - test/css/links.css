@@ -1,0 +1,61 @@
+/*===== LINKS FOR PAGES ====*/
+
+/*==== LINKS FOR NAV BAR*/
+#nav-bar ul li a{
+    color: white;
+    padding: 2px 4px;
+    text-decoration: none;
+    font-family: georgia;
+    font-size: large;
+}
+
+#nav-bar ul li a:hover {
+    color: black;
+    background-color: white;
+    border: 5px;
+}
+
+/*==== Home page ====*/
+.side-bar div li a, .main p a, .side-bar-mobile div li a {
+    text-decoration: none;
+    color:white;
+}
+
+.side-bar div li a:hover, .main p a:hover, .side-bar-mobile div li a:hover {
+    color: black;
+}
+
+.next-previous ul li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    font-family:georgia, 'Times New Roman', sans-serif;
+}
+
+.next-previous ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+/*===== sing-post.html, replies.html =====*/
+#replies div a, #comments div a, #comments-mobile div a, #replies-mobile div a {
+    text-decoration: none;
+    font-family:georgia, 'Times New Roman', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+#replies div a:hover, #comments div a:hover, #comments-mobile div a:hover, #replies-mobile div a:hover{
+    color: black;
+}
+
+.single-post p span a{
+    text-decoration: none;
+}
+
+.single-post p span a:hover{
+    color: white;
+}
