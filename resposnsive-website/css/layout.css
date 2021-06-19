@@ -104,6 +104,10 @@ body {
     overflow: hidden;
 }
 
+.main {
+    margin: 7px 7px 7px 7px;
+}
+
 .main p, .single-post p{
    color: rgb(0, 0, 0);
    font-family: sans-serif;
