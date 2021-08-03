@@ -1,0 +1,68 @@
+div.container {
+    border: 7px solid black;
+    width: 75%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+div.game {
+    display: flex;
+    justify-content: space-around;
+} 
+
+div.control {
+    text-align: center;
+    margin: 10px 0;
+}
+
+td {
+    border: 3px outset black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 500%;
+}
+
+tr#row-1 :nth-child(odd), tr#row-3 :nth-child(odd),
+tr#row-2 :nth-child(even) {
+    background-color: yellow;
+    color: white;
+}
+
+tr#row-1 :nth-child(odd):hover, tr#row-3 :nth-child(odd):hover, 
+tr#row-2 :nth-child(even):hover {
+    background-color: green;
+}
+
+tr#row-1 :nth-child(even):hover, tr#row-3 :nth-child(even):hover, 
+tr#row-2 :nth-child(odd):hover {
+    background-color: black;
+    color: white;
+}
+
+div span {
+    margin-top: 25%;
+    font-family: Geneva, sans-serif, Verdana, Tahoma;
+    font-size: larger;
+}
+
+div.control button {
+    background-color: red;
+    width: 200px;
+    height: 60px;
+    border-style: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+div.control button:hover {
+    background-color: black;
+    color: white;
+}
+
+.control p{
+    font-size: 2em;
+    font-weight: 300;
+}

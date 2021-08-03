@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game">
+            <span style="font-size: 3em; font-weight: bolder;">X : <span id="x-score">0</span></span>
+            <table>
+                <tr id="row-1">
+                    <td id="r-1c-1" onclick="playHere(this)"></td>
+                    <td id="r-1c-2" onclick="playHere(this)"></td>
+                    <td id="r-1c-3" onclick="playHere(this)"></td>
+                </tr>
+
+                <tr id="row-2">
+                    <td id="r-2c-1" onclick="playHere(this)"></td>
+                    <td id="r-2c-2" onclick="playHere(this)"></td>
+                    <td id="r-2c-3" onclick="playHere(this)"></td>
+                </tr>
+
+                <tr id="row-3">
+                    <td id="r-3c-1" onclick="playHere(this)"></td>
+                    <td id="r-3c-2" onclick="playHere(this)"></td>
+                    <td id="r-3c-3" onclick="playHere(this)"></td>
+                </tr>
+            </table>
+            <span style="font-size: 3em; font-weight: bolder;">O : <span id="o-score">0</span></span>
+        </div>
+
+        <div class="control">
+            <button id="start">Start/Reset</button>
+            <p>P1 plays as 'X' and P2 plays as 'O'</p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
