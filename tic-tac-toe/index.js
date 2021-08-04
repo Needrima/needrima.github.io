@@ -29,7 +29,9 @@ function playHere(clickedCell) {
     }
 
     if (Draw()) {
-        
+        alert('Draw');
+        console.log('Draw');
+        reset();
     }
 }
 
