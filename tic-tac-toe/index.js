@@ -80,11 +80,7 @@ function reset() {
 }
 
 function cellIsNotTaken(id) {
-    if (document.querySelector(`#${id}`).textContent === '') {
-        return true
-    }else {
-        return false
-    }
+    return document.querySelector(`#${id}`).textContent === ''
 }
 
 function Found(arr, item) {
